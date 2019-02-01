@@ -1,0 +1,122 @@
+html {
+    background-image: url("../images/crystals.jpg");   
+}
+    body {
+    display: block;
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    background-repeat: repeat-y;
+}
+
+p {
+    display: block;
+    padding: .25em;
+    margin: .25em;
+}
+/* the H2 tag header  */
+.title {
+    background-color: darkgray;
+    color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    width: 50%;
+    text-align: center;
+    font-size: 5vw;
+    padding: 15px;
+    border: 2px solid black;
+}
+/* the core p-holder explaining the rules */
+.main {
+    background-color: silver;
+    color: darkblue;
+    display: block;
+    padding: 20px;
+    border: 2px solid black;
+    margin-bottom: 1.25em;
+}
+
+.winAndNumber {
+    clear: both;
+    background-color: none;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 310px;
+    float: center;
+
+}
+/* the current random number goal */
+.numberHolder {
+    background-color: palegreen;
+    color: black;
+    font-weight: bolder;
+    font-size: 5em;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    position: relative;
+    float: left;
+    width: 200px;
+}
+/* the tracker for wins and losses */
+.winLossHolder {
+    background-color: palegreen;
+    color: black;
+    font-weight: bolder;
+    border: 2px solid black;
+    position: relative;
+    float: left;
+    margin-left: 2px;
+    width: 100px;
+    top: 50px;
+}
+/* the container for the score as it stands */
+.scoreHolder {
+    clear: both;
+    margin-top: 20px;
+    background-color: rgb(134, 133, 133);
+    color: whitesmoke;
+    padding: 15px;
+    border: 2px solid black;
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* the score as it stands */
+.score {
+
+    margin-top: 20px;
+    font-size: 5em;
+    text-align: center;
+}
+
+/* container box for all the crystals and gems */
+.crystalCollector {
+    clear: both;
+    background-color: none;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 310px;
+    float: center;
+}
+
+/* individual crystal holders */
+.crystalContainer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    float: left;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.crystalImage {
+    width: 100%;
+}
