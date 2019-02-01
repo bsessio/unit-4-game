@@ -39,6 +39,7 @@ p {
     margin-bottom: 1.25em;
 }
 
+/* The holder for holders for the win/loss stats and crystal number */
 .winAndNumber {
     clear: both;
     background-color: none;
@@ -50,7 +51,7 @@ p {
     float: center;
 
 }
-/* the current random number goal */
+/* the holder for the current random number goal */
 .numberHolder {
     background-color: palegreen;
     color: black;
@@ -115,8 +116,4 @@ p {
     float: left;
     border: 2px solid black;
     margin-bottom: 20px;
-}
-
-.crystalImage {
-    width: 100%;
 }

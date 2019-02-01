@@ -1,43 +1,63 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Crystal Collector!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS sheets -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <!-- JQuery script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
+
 <body>
 
     <h1 class="title">Crystal Collector!</h1>
-
+    <!-- Game description! -->
     <div class="main">
         <p>You will be given a random number at the start of the game.</p>
-        <p>There are four crystals and gems below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-        <p>You win the game by matching your total scores to the random number. You lose the game if your total score goes above the random number.</p>
+        <p>There are four crystals and gems below. By clicking on a crystal you will add a specific amount of points to
+            your total score.</p>
+        <p>You win the game by matching your total scores to the random number. You lose the game if your total score
+            goes above the random number.</p>
         <p>The value of each crystal is hidden from you until you click on it (and, sometimes, do some math!)</p>
         <p>Each time when the game starts, the game will change both the random number and the values of each crystals.</p>
     </div>
+
+    <!-- Holder for the  "crystal number" holder and the win/loss score holder-->
     <div class="winAndNumber">
-    <div class="numberHolder">
-<p class="crystalNumber">30</p>
+        <!-- Holder for the actual "crystal number" -->
+        <div class="numberHolder">
+            <!-- The crystal number -->
+            <p class="crystalNumber">30</p>
+        </div>
+        <!-- Holding for the win-loss holder. -->
+        <div class="winLossHolder">
+            <!-- Tracks wins -->
+            <p class="winHolder">Wins:</p>
+            <!-- Tracks losses -->
+            <p class="lossHolder">Losses:</p>
+        </div>
     </div>
-    <div class="winLossHolder">
-<p class="winHolder">Wins:</p>
-<p class="lossHolder">Losses:</p>
-    </div></div>
+    <!-- Holder for the crystals -->
     <div class="crystalCollector">
+        <!-- The crystals which will be selected for number addition -->
         <div class="crystalContainer"><img class="diamond" src="assets/images/diamond.png" width="100%"></div>
         <div class="crystalContainer"><img class="amber" src="assets/images/amber.png" width="100%"></div>
         <div class="crystalContainer"><img class="emerald" src="assets/images/emerald.png" width="100%"></div>
         <div class="crystalContainer"><img class="sapphire" src="assets/images/sapphire.png" width="100%"></div>
     </div>
+    <!-- Holder for the current score -->
     <div class="scoreHolder">
+        <!-- The current score -->
         <p>Your total score is:</p>
         <h1 class="score">0</h1>
     </div>
-    <script src="assets/javascript/game.js"></script>    
+    <!-- Javascript file -->
+    <script src="assets/javascript/game.js"></script>
 </body>
+
 </html>
